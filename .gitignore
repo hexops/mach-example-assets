@@ -17,5 +17,3 @@ zig-out/
 /build-*/
 /docgen_tmp/
 
-**/*.png
-!assets/*.png
