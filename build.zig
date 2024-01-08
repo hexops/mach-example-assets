@@ -5,7 +5,7 @@ pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
 
     _ = b.addModule("mach-core-example-assets", .{
-        .source_file = .{ .path = "main.zig" },
+        .root_source_file = .{ .path = "main.zig" },
     });
 
     const main_tests = b.addTest(.{
