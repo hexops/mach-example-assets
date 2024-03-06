@@ -11,3 +11,7 @@ or the MIT license (see LICENSE-MIT or http://opensource.org/licenses/MIT), at y
 
 All files in the project without exclusions may not be copied, modified, or distributed except
 according to the terms above.
+
+The following files are under a separate license:
+
+* `assets/gotta-go-fast.png`: Attribution 4.0 International (CC BY 4.0), see https://github.com/ziglang/logo#official-mascots

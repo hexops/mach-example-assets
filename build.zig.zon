@@ -1,0 +1,15 @@
+.{
+    .name = "mach-example-assets",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        "assets",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "LICENSE-APACHE",
+        "LICENSE-MIT",
+        "main.zig",
+        "README.md",
+    },
+}
