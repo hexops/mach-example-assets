@@ -4,7 +4,7 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
     const target = b.standardTargetOptions(.{});
 
-    _ = b.addModule("mach-core-example-assets", .{
+    _ = b.addModule("mach-example-assets", .{
         .root_source_file = .{ .path = "main.zig" },
     });
 
