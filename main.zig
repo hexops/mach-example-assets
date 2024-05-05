@@ -24,6 +24,16 @@ pub const skybox_posx_png = @embedFile("assets/skybox/posx.png");
 pub const skybox_posy_png = @embedFile("assets/skybox/posy.png");
 pub const skybox_posz_png = @embedFile("assets/skybox/posz.png");
 
+pub const bgm = struct {
+    pub const behind_the_sword = @embedFile("assets/bgm/behind_the_sword_alexander_nakarada.opus");
+    pub const bit_bit_loop = @embedFile("assets/bgm/bit_bit_loop_kevin_macleod.opus");
+};
+
+pub const sfx = struct {
+    pub const death = @embedFile("assets/sfx/death.opus");
+    pub const sword1 = @embedFile("assets/sfx/sword1.opus");
+};
+
 test {
     std.testing.refAllDeclsRecursive(@This());
 }
