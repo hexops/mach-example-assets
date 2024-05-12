@@ -32,6 +32,7 @@ pub const bgm = struct {
 pub const sfx = struct {
     pub const death = @embedFile("assets/sfx/death.opus");
     pub const sword1 = @embedFile("assets/sfx/sword1.opus");
+    pub const scifi_gun = @embedFile("assets/sfx/scifi_gun.opus");
 };
 
 test {
